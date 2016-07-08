@@ -1,0 +1,12 @@
+{
+  "name": "address-book-converter",
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20160622202520",
+    "sqlite3": "registry:dt/sqlite3#2.2.3+20160316155526",
+    "validator": "registry:dt/validator#4.5.1+20160316155526"
+  },
+  "files": [
+    "./definitions/index.d.ts"
+  ],
+  "dependencies": {}
+}

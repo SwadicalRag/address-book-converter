@@ -1,0 +1,35 @@
+{
+  "name": "address-book-converter",
+  "version": "1.0.0",
+  "description": "Converts an iPhone's address book sqlite file to a .vcf file",
+  "main": "js/index.js",
+  "dependencies": {
+    "sqlite3": "^3.1.4",
+    "validator": "^5.4.0",
+    "vcf": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "gulp-notify": "latest",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "latest",
+    "gulp-util": "latest",
+    "merge2": "^1.0.2",
+    "tsify": "latest",
+    "vinyl-source-stream": "latest",
+    "watchify": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwadicalRag/sodium.git"
+  },
+  "author": "SwadicalRag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwadicalRag/sodium/issues"
+  },
+  "homepage": "https://github.com/SwadicalRag/sodium#readme"
+}
