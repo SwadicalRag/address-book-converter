@@ -4,6 +4,7 @@
   "description": "Converts an iPhone's address book sqlite file to a .vcf file",
   "main": "js/index.js",
   "dependencies": {
+    "minimist": "^1.2.0",
     "sqlite3": "^3.1.4",
     "validator": "^5.4.0",
     "vcf": "^1.0.0"
@@ -31,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/SwadicalRag/sodium/issues"
   },
-  "homepage": "https://github.com/SwadicalRag/sodium#readme"
+  "homepage": "https://github.com/SwadicalRag/sodium#readme",
+  "bin": {
+    "convertaddressbook": "./js/cli.js"
+  }
 }
